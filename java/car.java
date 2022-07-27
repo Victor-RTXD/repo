@@ -1,7 +1,17 @@
-class car {
+import java.sql.Driver;
+
+class Car {
     int id;
     String license;
-    String drvier;
+    Account driver;
     int passenger;
     
+    public Car(String license, Account driver) {
+        this.license = license;
+        this.driver = driver;
+    }
+
+    void printDataCar() {
+        System.out.println("License: " + license + "Driver: " + driver.name);
+    }
 }
