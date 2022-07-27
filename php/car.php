@@ -7,8 +7,11 @@ class Car
     public $license = string;
     public $passenger = int;
 
-
-
     // Declaración de un método
+    public function __construct($driver, $license)
+    {
+        $this->driver = $driver;
+        $this->license = $license;
+    }
 }
 ?>

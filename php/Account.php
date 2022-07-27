@@ -8,8 +8,11 @@ class Account
     public $name = string;
     public $document = string;
 
-
-
     // Declaración de un método
+    public function __construct($document, $name)
+    {
+        $this->name = $name;
+        $this->document = $document;
+    }
 }
 ?>
