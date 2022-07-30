@@ -1,7 +1,5 @@
 class main {
-    
     public static void main(String[] args) {
-        System.out.println("Hola mundo");
 
         Car car = new Car("AMQ123", new Account("Andres", "LJKDS"));
         car.passenger = 4;

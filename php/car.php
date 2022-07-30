@@ -1,4 +1,5 @@
 <?php
+require_once('account.php');
 class Car
 {
     // Declaración de una propiedad
@@ -12,6 +13,10 @@ class Car
     {
         $this->driver = $driver;
         $this->license = $license;
+    }
+
+    public function printData() {
+        echo "Licencia: $this->license Driver: ".$this->driver.name;
     }
 }
 ?>
