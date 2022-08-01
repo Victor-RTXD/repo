@@ -5,6 +5,7 @@ class Car {
         this.driver = driver;
         this.passenger;
     }
+    //metodos
     printDataCar() {
         console.log(this.driver);
         console.log(this.driver.name);

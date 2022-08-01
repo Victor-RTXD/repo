@@ -9,7 +9,3 @@ class Account:
         self.name = name   #self en vez de this
         self.document = document
 
-
-
-if __name__ == "__main__":
-    pass

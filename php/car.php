@@ -1,22 +1,18 @@
 <?php
 require_once('account.php');
-class Car
-{
-    // Declaración de una propiedad
-    public $id = int;
-    public $driver = string;
-    public $license = string;
-    public $passenger = int;
+class Car {
+    public $id;
+    public $license;
+    public $driver;
+    public $passenger;
 
-    // Declaración de un método
-    public function __construct($driver, $license)
-    {
-        $this->driver = $driver;
+    public function __construct($license, $driver){
         $this->license = $license;
+        $this->driver = $driver;
     }
 
-    public function printData() {
-        echo "Licencia: $this->license Driver: ".$this->driver.name;
+    public function printDataCar() {
+        echo "Licencia: $this->license Driver: ".$this->driver->name;
     }
 }
 ?>

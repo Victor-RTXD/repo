@@ -1,6 +1,6 @@
-class Payment {
+class Paypal extends Payment {
     constructor(method) {
         super(method)
-        this.id;
+        this.id = id;
     }
 }

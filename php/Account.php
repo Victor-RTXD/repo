@@ -1,18 +1,16 @@
 <?php
-class Account
-{
-    // Declaración de una propiedad
-    public $id = int;
-    public $email = string;
-    public $password = string;
-    public $name = string;
-    public $document = string;
+class Account {
+    public $id;
+    public $name;
+    public $document;
+    public $email;
+    public $password;
 
-    // Declaración de un método
-    public function __construct($document, $name)
-    {
+    public function __construct($name, $document){
         $this->name = $name;
         $this->document = $document;
     }
+
 }
+
 ?>
