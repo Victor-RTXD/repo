@@ -1,8 +1,8 @@
 class Car {
-    int id;
-    String license;
-    Account driver;
-    private Integer passenger;
+    private int id;
+    private String license;
+    private Account driver;
+    protected Integer passenger;
     
     public Car(String license, Account driver) {
         this.license = license;
@@ -27,4 +27,30 @@ class Car {
         }
              
     }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getLicense() {
+        return license;
+    }
+
+    public void setLicense(String license) {
+        this.license = license;
+    }
+
+    public Account getDriver() {
+        return driver;
+    }
+
+    public void setDriver(Account driver) {
+        this.driver = driver;
+    }
+
+    
 }

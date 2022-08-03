@@ -8,4 +8,11 @@ class UberX extends Car{
         this.model = model;
 
     }
+
+    @Override
+    void printDataCar() {
+        // TODO Auto-generated method stub
+        super.printDataCar();
+        System.out.println("modelo" + model);
+    }
 }

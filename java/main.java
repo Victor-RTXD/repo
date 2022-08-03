@@ -5,6 +5,9 @@ class main {
         uberX.setPassengers(4);
         uberX.printDataCar();
 
+        UberVan uberVan = new UberVan("LSJF", new Account("Jon", "documetnos"));
+        uberVan.setPassengers(6);
+        uberVan.printDataCar();
 
 
 
